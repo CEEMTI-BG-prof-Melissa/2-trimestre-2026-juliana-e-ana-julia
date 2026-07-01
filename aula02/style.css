@@ -18,7 +18,7 @@ a:last-child{
     color: red;
 }
 a:nth-child(odd){
-    background-color: purple;
+    background-color: gray;
 }
 a:nth-child(even){
     background-color: pink;
