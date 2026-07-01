@@ -42,6 +42,6 @@ label:has(input[type="checkbox"]:checked){
 li:not(:first-child){
     color: green;    
 }
-h1:is{
+h1:is(h1, h2, h3){
     color:red;
 }
