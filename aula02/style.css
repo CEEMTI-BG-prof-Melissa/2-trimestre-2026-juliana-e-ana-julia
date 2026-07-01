@@ -1,0 +1,47 @@
+a{
+  color: black;
+}
+
+a:hover{
+    color: blue;
+}
+a:visited{
+    color: purple;
+}
+a:focus{
+    border: 2px solid black;
+}
+a:first-child{
+    font-weight: bolder;
+}
+a:last-child{
+    color: red;
+}
+a:nth-child(odd){
+    background-color: purple;
+}
+a:nth-child(even){
+    background-color: pink;
+}
+input:required{
+     border: 2px solid yellow;
+}
+input:focus, textarea:focus{
+    box-shadow: 5px 10px green;
+}
+input[type="email"]:valid{
+    color:green;
+}
+input[type="email"]:invalid{
+    color:red;
+}
+label:has(input[type="checkbox"]:checked){
+    color:purple;
+}
+
+li:not(:first-child){
+    color: green;    
+}
+h1:is{
+    color:red;
+}
