@@ -1,0 +1,37 @@
+h1::before {
+content: "📚 ";
+}
+
+
+p::after {
+content: " ⭐";
+}
+
+.bio::first-letter {
+font-size: 30px;
+color: blue;
+}
+
+
+p::first-line {
+font-weight: bold;
+font-family: Arial;
+}
+
+::selection {
+background: yellow;
+color: black;
+}
+
+input::placeholder {
+color: gray;
+font-style: italic;
+}
+
+li::marker {
+color: red;
+}
+
+li::marker {
+font-size: 22px;
+}
